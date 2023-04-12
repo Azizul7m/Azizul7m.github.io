@@ -27,7 +27,7 @@ export default function RootLayout({
                     {/* @ts-expect-error */}
                     <Navbar />
                     {/* <Toaster position='bottom-right' /> */}
-                    <main>
+                    <main className="pt-[6rem]">
                         {children}
                     </main>
                 </Provider>

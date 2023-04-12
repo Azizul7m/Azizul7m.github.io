@@ -3,6 +3,7 @@ import { buttonVariants } from "./ui/Button";
 import { getServerSession } from 'next-auth'
 import SignInButton from "./SignInButton";
 import SignOutButton from "./SignOutButton";
+import Dropdwon from "./ui/Dropdwon";
 
 const Navbar = async () => {
     const session = await getServerSession();
@@ -12,6 +13,7 @@ const Navbar = async () => {
                 <Link href='/' className={buttonVariants({ variant: 'link' })} >
                     AZIZUL7M
                 </Link>
+                <Dropdwon />
                 <div className="md:hidden">
                     {/* <ThemeToggle /> */}
                     <Link

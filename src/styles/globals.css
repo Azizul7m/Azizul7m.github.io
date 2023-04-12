@@ -24,3 +24,45 @@
 .three-d {
   text-shadow: none;
 }
+
+.dropdown{
+  position: relative;
+  color: black;
+  background: red;
+  padding: 1rem;
+
+}
+.dd-items{
+  min-width: 100%;
+  width: 160px;
+  left: 0;
+  top: 4rem;
+  background-color: red;
+  position: absolute;
+  display: block;
+}
+
+
+
+.dd-items a{
+  display: block;
+  padding: 2px 2px;
+}
+.dd-items a:hover{
+  cursor: pointer;
+  background-color: darkblue;
+}
+.dd-childGrp{
+  position: relative;
+}
+.dd-left{
+  background-color: red;
+  position: absolute;
+  padding: 2px 2px;
+  left: -6rem;
+  top: 0;
+}
+
+.dd-hide{
+  display: none;
+}
